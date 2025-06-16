@@ -1,68 +1,67 @@
-# 🧪 FB2NEP Datascience – Teaching Resources
+# FB2NEP – Public Health Nutrition & Epidemiology
 
-This repository contains teaching materials and data analysis notebooks for the **FB2NEP** module on *Public Health Nutrition & Epidemiology* at the University of Reading.
-
-These resources are designed to support the practical and quantitative components of the module. All work is done in Python (via Google Colab) using a realistic synthetic dataset.
+This repository supports the FB2NEP module at the University of Reading, focused on core skills in nutritional epidemiology and public health nutrition. The materials use synthetic but realistic data and can be run via **Google Colab** – no installation required.
 
 ---
 
-## 📚 Contents
+## 📁 Structure
 
-- `notebooks/`: Weekly Jupyter notebooks (Colab-compatible)
-- `data/`: Synthetic dataset used throughout the module
-- `scripts/`: Code to generate the dataset for transparency and reproducibility
-
-Slides are distributed via **Blackboard** and are not included here.
+- `notebooks/` – Jupyter notebooks for each week
+- `data/` – synthetic datasets
+- `scripts/` – dataset generation and support scripts
 
 ---
 
-## 🔗 Getting Started in Colab
+## 🚀 Getting Started
 
-> ⚠️ You do **not need to install anything** — all notebooks run in the browser using [Google Colab](https://colab.research.google.com).
+You can open notebooks directly in [Google Colab](https://colab.research.google.com/).
 
-### ▶️ Week 1: Welcome & Onboarding
-
-📓 Notebook: [`00_playground.ipynb`](notebooks/01_playground.ipynb)
-<a href="https://colab.research.google.com/github/ggkuhnle/FB2NEP_datascience/blob/main/notebooks/01_playground.ipynb" target="_blank">🚀 Open in Colab</a>
-
-📓 Notebook: [`01_welcome_colab.ipynb`](notebooks/01_welcome_colab.ipynb)  
-<a href="https://colab.research.google.com/github/ggkuhnle/FB2NEP_datascience/blob/main/notebooks/01_welcome_colab.ipynb" target="_blank">🚀 Open in Colab</a>
+Example:  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ggkuhnle/FB2NEP_datascience/blob/main/notebooks/00_playground.ipynb)
 
 ---
 
-## 📁 Dataset
+## 📚 Weekly Content Overview
 
-📄 [`data/fb2nep_data.csv`](data/fb2nep_data.csv)
-
-This dataset simulates responses from 1,000 individuals, including variables like:
-
-- `age`, `sex`, `BMI`, `social_class`
-- `smoking_status`, `physical_activity`
-- `nutrient_intake`, `risk_factor_1/2`
-- Simulated binary `disease` outcome
-
-🧬 The dataset is synthetic, generated using logistic modelling with a fixed seed for reproducibility.
+| Week | Notebook | Topics |
+|------|----------|--------|
+| 1 | `00_playground.ipynb` | What is Python? How does Colab work? Try things out safely |
+| 1 | `01_welcome_colab.ipynb` | Data handling basics: loading, summarising, exploring structure |
+| 2 | `02_analysis_basics.ipynb` | Distribution, transformation, correlation, Table 1, simple regression |
+| 3 | `03_confounders_colliders.ipynb` | Confounding, colliders, DAGs, model comparisons |
+| 4 | `04_survival_analysis.ipynb` | Kaplan–Meier, Cox regression, survival curves |
 
 ---
 
-## 🛠️ Reproducibility
+## 📦 Setup (for local use)
 
-To regenerate the dataset:
+If you'd rather work locally (optional):
 
 ```bash
-python scripts/generate_fb2nep_data.py
+git clone git@github.com:ggkuhnle/FB2NEP_datascience.git
+cd FB2NEP_datascience
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+jupyter notebook
 ```
 
-The script uses `numpy` and `pandas`, and is fully self-contained.
+---
+
+## 🔬 Dataset
+
+The dataset is **synthetic** but statistically realistic. It includes demographic and health-related variables relevant for public health nutrition.
+
+You can regenerate it using the script in `scripts/generate_dataset.py` with the fixed seed `11088` (MW of Ribonuclease T1).
 
 ---
 
-## 💡 License
+## 👤 Author
 
-All notebooks and scripts in this repository are shared under the **MIT License**.
+This material is developed and maintained by [Gunter Kuhnle](https://www.reading.ac.uk/), Professor of Nutrition and Food Science, University of Reading.
 
 ---
 
-## 🙋 Questions?
+## 📝 Licence
 
-Contact Prof. Gunter Kuhnle or raise an issue in this repository.
+MIT Licence. See `LICENSE.md`.
