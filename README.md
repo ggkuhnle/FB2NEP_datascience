@@ -16,20 +16,17 @@ This repository supports the FB2NEP module at the University of Reading, focused
 
 You can open notebooks directly in [Google Colab](https://colab.research.google.com/).
 
-Example:  
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ggkuhnle/FB2NEP_datascience/blob/main/notebooks/00_playground.ipynb)
-
 ---
 
 ## 📚 Weekly Content Overview
 
-| Week | Notebook | Topics |
-|------|----------|--------|
-| 1 | `00_playground.ipynb` | What is Python? How does Colab work? Try things out safely |
-| 1 | `01_welcome_colab.ipynb` | Data handling basics: loading, summarising, exploring structure |
-| 2 | `02_analysis_basics.ipynb` | Distribution, transformation, correlation, Table 1, simple regression |
-| 3 | `03_confounders_colliders.ipynb` | Confounding, colliders, DAGs, model comparisons |
-| 4 | `04_survival_analysis.ipynb` | Kaplan–Meier, Cox regression, survival curves |
+| Week | Notebook | Topics | Open in Colab |
+|------|----------|--------|---------------|
+| 1 | `00_playground.ipynb` | What is Python? How does Colab work? Try things out safely | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ggkuhnle/FB2NEP_datascience/blob/main/notebooks/00_playground.ipynb) |
+| 1 | `01_welcome_colab.ipynb` | Data handling basics: loading, summarising, exploring structure | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ggkuhnle/FB2NEP_datascience/blob/main/notebooks/01_welcome_colab.ipynb) |
+| 2 | `02_analysis_basics.ipynb` | Distribution, transformation, correlation, Table 1, simple regression | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ggkuhnle/FB2NEP_datascience/blob/main/notebooks/02_analysis_basics.ipynb) |
+| 3 | `03_confounders_colliders.ipynb` | Confounding, colliders, DAGs, model comparisons | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ggkuhnle/FB2NEP_datascience/blob/main/notebooks/03_confounders_colliders.ipynb) |
+| 4 | `04_survival_analysis.ipynb` | Kaplan–Meier, Cox regression, survival curves | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ggkuhnle/FB2NEP_datascience/blob/main/notebooks/04_survival_analysis.ipynb) |
 
 ---
 
