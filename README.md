@@ -22,6 +22,9 @@ Slides are distributed via **Blackboard** and are not included here.
 
 ### ▶️ Week 1: Welcome & Onboarding
 
+📓 Notebook: [`00_playground.ipynb`](notebooks/01_playground.ipynb)
+<a href="https://colab.research.google.com/github/ggkuhnle/FB2NEP_datascience/blob/main/notebooks/01_playground.ipynb" target="_blank">🚀 Open in Colab</a>
+
 📓 Notebook: [`01_welcome_colab.ipynb`](notebooks/01_welcome_colab.ipynb)  
 <a href="https://colab.research.google.com/github/ggkuhnle/FB2NEP_datascience/blob/main/notebooks/01_welcome_colab.ipynb" target="_blank">🚀 Open in Colab</a>
 
