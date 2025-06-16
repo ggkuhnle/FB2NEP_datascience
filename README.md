@@ -2,8 +2,6 @@
 
 This repository contains teaching materials and data analysis notebooks for the **FB2NEP** module on *Public Health Nutrition & Epidemiology* at the University of Reading.
 
-Blubber
-
 These resources are designed to support the practical and quantitative components of the module. All work is done in Python (via Google Colab) using a realistic synthetic dataset.
 
 ---
